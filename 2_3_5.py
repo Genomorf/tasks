@@ -7,5 +7,4 @@ def find_2_3_5_number(n: int) -> int:
         num += 1
         if num % 2 == 0 or num % 3 == 0 or num % 5 == 0:
             res.append(num)
-    print(res)
     return res[n-1]
